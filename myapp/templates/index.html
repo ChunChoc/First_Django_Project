@@ -1,0 +1,204 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>La Eterna Primavera</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/jquery.dropotron.min.js' %}"></script>
+    <script src="{% static 'js/skel.min.js' %}"></script>
+    <script src="{% static 'js/skel-layers.min.js' %}"></script>
+	<link rel="stylesheet" href="{% static 'css/skel.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body class="homepage">
+    <!-- Header -->
+    <div id="header">
+        <div class="container">
+            <!-- Logo -->
+            <h1><a href="#" id="logo">La Eterna Primavera</a></h1>
+            <!-- Nav -->
+            <nav id="nav">
+                <ul>
+                    <li><a href="{% url 'home' %}">Inicio</a></li>
+                    <li>
+                        <a href="">Servicios y tratamientos</a>
+                        <ul>
+                            <li><a href="#">Medicina General</a></li>
+                            <li><a href="#">Especialidades Médicas</a></li>
+                            <li><a href="#">Diagnóstico por Imágenes</a></li>
+                            <li>
+                                <a href="">Cirugías y Procedimientos</a>
+                                <ul>
+                                    <li><a href="#">Cirugía General</a></li>
+                                    <li><a href="#">Cirugía Laparoscópica</a></li>
+                                    <li><a href="#">Procedimientos Ambulatorios</a></li>
+                                    <li><a href="#">Cirugía Plástica y Reconstructiva</a></li>
+                                    <li><a href="#">Ortopedia y Traumatología</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Salud y Bienestar</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about/">Quiénes Somos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="/admin/">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+            <!-- Banner -->
+            <div id="banner">
+                <div class="container">
+                    <section>
+                        <header class="major">
+                            <h2>Tu Salud En Buenas Manos</h2>
+                            <span class="byline">Excelencia y humanidad en cada consulta desde 1918, cuidamos de ti y los tuyos.</span>
+                        </header>
+                        <a href="{% url 'select' %}" class="button alt">Formulario</a>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured -->
+    <div class="wrapper style2">
+        <section class="container">
+            <header class="major">
+                <h2>Espectro de Cuidados</h2>
+                <span class="byline">Dedicación en Cada Detalle</span>
+            </header>
+            <div class="row no-collapse-1">
+                <section class="4u">
+                    <a href="#" class="image feature"><img src="{% static 'images/pic02.jpg' %}" alt="" width="368" height="180"></a>
+                    <p>Atención Cardiaca: Monitoreo y cuidado del corazón para latir al ritmo de la vida.</p>
+                </section>
+                <section class="4u">
+                    <a href="#" class="image feature"><img src="{% static 'images/pic03.jpg' %}" alt="" width="368" height="180"></a>
+                    <p>Medicina Preventiva: Cultivando bienestar a través de la prevención y cuidado proactivo.</p>
+                </section>
+                <section class="4u">
+                    <a href="#" class="image feature"><img src="{% static 'images/pic04.jpg' %}" alt="" width="368" height="180"></a>
+                    <p>Equipo Multidisciplinario: Expertos en salud trabajando juntos por su recuperación integral.</p>
+                </section>
+            </div>
+        </section>
+    </div>
+    <!-- Main -->
+    <div id="main" class="wrapper style1">
+        <section class="container">
+            <header class="major">
+                <h2>Pilares de Nuestro Compromiso</h2>
+                <span class="byline">Claves para una Atención Integral</span>
+            </header>
+            <div class="row">
+                <!-- Content -->
+                <div class="6u">
+                    <section>
+                        <ul class="style">
+                            <li>
+                                <span class="fa fa-wrench"></span>
+                                <h3>Acceso a la Salud</h3>
+                                <span>Nuestra clínica es la llave para una salud óptima, abriendo posibilidades de bienestar y recuperación para nuestros pacientes.</span>
+                            </li>
+                            <li>
+                                <span class="fa fa-cloud"></span>
+                                <h3>Alivio y Esperanza</h3>
+                                <span>Brindamos alivio y esperanza, como una nube que ofrece sombra, con servicios que refrescan y renuevan el espíritu de nuestros pacientes.</span>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="6u">
+                    <section>
+                        <ul class="style">
+                            <li>
+                                <span class="fa fa-cogs"></span>
+                                <h3>Sincronía en la Atención</h3>
+                                <span>Cada servicio que ofrecemos es un engranaje esencial, trabajando juntos para garantizar una atención médica precisa y coordinada.</span>
+                            </li>
+                            <li>
+                                <span class="fa fa-leaf"></span>
+                                <h3>Crecimiento y Regeneración</h3>
+                                <span>Nos inspiramos en la naturaleza para promover la salud, utilizando conocimientos médicos para nutrir y sanar a nuestros pacientes.</span>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container" id="contacto">
+            <!-- Lists -->
+            <div class="row">
+                <div class="8u">
+                    <section>
+                        <header class="major">
+                            <h2>Conéctate</h2>
+                            <span class="byline">Tu enlace directo con nosotros</span>
+                        </header>
+                        <div class="row">
+                            <section class="6u">
+                                <ul class="default">
+                                    <li><a href="#">Reserva tu Cita</a></li>
+                                    <li><a href="#">Horarios de Servicio</a></li>
+                                    <li><a href="#">Nuestras Sedes</a></li>
+                                    <li><a href="#">FAQ - Preguntas Comunes</a></li>
+                                </ul>
+                            </section>
+                            <section class="6u">
+                                <ul class="default">
+                                    <li><a href="#">Atención al Cliente</a></li>
+                                    <li><a href="#">Emergencias</a></li>
+                                    <li><a href="#">Eventos y Talleres</a></li>
+                                    <li><a href="#">Feedback y Sugerencias</a></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                <div class="4u">
+                    <section>
+                        <header class="major">
+                            <h2>¿Dudas?</h2>
+                            <span class="byline">Contáctanos</span>
+                        </header>
+                        <ul class="contact">
+                            <li>
+                                <span class="address">Dirección</span>
+                                <span>10 Avenida 7-57 Zona 1<br>Cobán, Alta Verapaz</span>
+                            </li>
+                            <li>
+                                <span class="mail">Correo</span>
+                                <span><a href="#">eterna@primavera.tld</a></span>
+                            </li>
+                            <li>
+                                <span class="phone">Teléfono</span>
+                                <span>(502) 3874-4094</span>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

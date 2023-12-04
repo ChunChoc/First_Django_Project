@@ -1,0 +1,159 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>La Eterna Primavera</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/jquery.dropotron.min.js' %}"></script>
+    <script src="{% static 'js/skel.min.js' %}"></script>
+    <script src="{% static 'js/skel-layers.min.js' %}"></script>
+	<link rel="stylesheet" href="{% static 'css/skel.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body class="right-sidebar">
+    <!-- Header -->
+    <div id="header">
+        <div class="container">
+            <!-- Logo -->
+            <h1><a href="#" id="logo">La Eterna Primavera</a></h1>
+            <!-- Nav -->
+            <nav id="nav">
+                <ul>
+                    <li><a href="{% url 'home' %}">Inicio</a></li>
+                    <li>
+                        <a href="">Servicios y tratamientos</a>
+                        <ul>
+                            <li><a href="#">Medicina General</a></li>
+                            <li><a href="#">Especialidades Médicas</a></li>
+                            <li><a href="#">Diagnóstico por Imágenes</a></li>
+                            <li>
+                                <a href="">Cirugías y Procedimientos</a>
+                                <ul>
+                                    <li><a href="#">Cirugía General</a></li>
+                                    <li><a href="#">Cirugía Laparoscópica</a></li>
+                                    <li><a href="#">Procedimientos Ambulatorios</a></li>
+                                    <li><a href="#">Cirugía Plástica y Reconstructiva</a></li>
+                                    <li><a href="#">Ortopedia y Traumatología</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Salud y Bienestar</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Quiénes Somos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="/admin/">Iniciar Sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- Main -->
+    <div id="main" class="wrapper style1">
+        <div class="container">
+            <div class="row">
+                <!-- Content -->
+                <div id="content" class="8u skel-cell-important">
+                    <section>
+                        <header class="major">
+                            <h2>Nuestro Legado de Cuidado</h2>
+                            <span class="byline">La Historia de Clínica Médica La Eterna Primavera</span>
+                        </header>
+                        <p>La Clínica Médica La Eterna Primavera hunde sus raíces en la rica historia del año 1918, cuando el Dr. Armando Rivera y su esposa, la enfermera Ana María López, abrieron las puertas de lo que era entonces una modesta consulta en una pequeña casa de la ciudad. Con la Primera Guerra Mundial recién concluida y el mundo en busca de sanación, su misión era clara: brindar esperanza y cuidado médico a una población que enfrentaba los desafíos de su tiempo. Su dedicación al bienestar de sus pacientes sentó las bases de lo que se convertiría en un legado duradero.</p>
+                        <p>A medida que el siglo avanzaba, también lo hacía la Clínica La Eterna Primavera. Sobreviviendo a los vaivenes de la historia, desde la Gran Depresión hasta la euforia de la posguerra, la clínica se expandió tanto en tamaño como en reputación. La década de los cincuenta marcó un punto de inflexión con la construcción de un nuevo ala y la incorporación de especialidades médicas emergentes. La clínica se convirtió en un pilar de la comunidad, un lugar donde generaciones de familias confiaban en recibir cuidados con compasión y excelencia.</p>
+                        <p>Hoy, más de un siglo después, La Eterna Primavera se erige como un monumento a la innovación y al compromiso humano. Con un equipo de especialistas que abarca múltiples disciplinas, la clínica sigue liderando con su enfoque pionero en la medicina moderna. Los programas de salud pública y las campañas de educación sanitaria han dejado una huella imborrable en la salud de la comunidad. A pesar de los cambios a lo largo de los años, el corazón de la clínica sigue latiendo con el mismo ritmo de cuidado y dedicación que sus fundadores soñaron en aquellos días de postguerra, perpetuando un legado de curación y esperanza.</p>
+                    </section>
+                </div>
+                <!-- Sidebar -->
+                <div id="sidebar" class="4u sidebar">
+                    <section>
+                        <header class="major">
+                            <h2>Dr. Armando Rivera</h2>
+                        </header>
+                        <p>El Dr. Armando Rivera fue un visionario de la medicina, cuya pasión por la salud integral fue el cimiento sobre el cual se edificó la Clínica Médica La Eterna Primavera. Desde su fundación en 1918, el Dr. Rivera se dedicó a brindar una atención personalizada, enfocándose en el bienestar completo de cada paciente. Su legado perdura en las paredes de la clínica y en el espíritu de servicio que caracteriza a nuestro personal.</p>
+                    </section>
+                    <section>
+                        <header class="major">
+                            <h2>La Eterna Primavera 1918</h2>
+                        </header>
+                        <p>Fundada en el año 1918, en un mundo que se recuperaba de la guerra y la pandemia, la Clínica Médica La Eterna Primavera se convirtió en un símbolo de renacimiento y esperanza. Con más de un siglo de servicio, hemos evolucionado adaptándonos a los avances de la medicina, pero siempre fieles a nuestra misión original: ofrecer cuidado y sanación con calidez humana y excelencia profesional.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container" id="contacto">
+            <!-- Lists -->
+            <div class="row">
+                <div class="8u">
+                    <section>
+                        <header class="major">
+                            <h2>Conéctate</h2>
+                            <span class="byline">Tu enlace directo con nosotros</span>
+                        </header>
+                        <div class="row">
+                            <section class="6u">
+                                <ul class="default">
+                                    <li><a href="#">Reserva tu Cita</a></li>
+                                    <li><a href="#">Horarios de Servicio</a></li>
+                                    <li><a href="#">Nuestras Sedes</a></li>
+                                    <li><a href="#">CFAQ - Preguntas Comunes</a></li>
+                                </ul>
+                            </section>
+                            <section class="6u">
+                                <ul class="default">
+                                    <li><a href="#">Atención al Cliente</a></li>
+                                    <li><a href="#">Emergencias</a></li>
+                                    <li><a href="#">Eventos y Talleres</a></li>
+                                    <li><a href="#">Feedback y Sugerencias</a></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                <div class="4u">
+                    <section>
+                        <header class="major">
+                            <h2>¿Dudas?</h2>
+                            <span class="byline">Contáctanos</span>
+                        </header>
+                        <ul class="contact">
+                            <li>
+                                <span class="address">Dirección</span>
+                                <span> 10 Avenida 7-57 Zona 1 <br>Cobán, Alta Verapaz</span>
+                            </li>
+                            <li>
+                                <span class="mail">Correo</span>
+                                <span><a href="#">eterna@primavera.tld</a></span>
+                            </li>
+                            <li>
+                                <span class="phone">Phone</span>
+                                <span>(502) 3874-4094</span>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
